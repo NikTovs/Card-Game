@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@400;500&display=swap');
+
+
+.card {
+    font-family: 'Texturina', serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 390px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;    
+}
+
+.card-default {
+    background: #eeeeee;
+    color: #222831;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.card-text {
+    margin: 5px;
+}
+
+.card-reward {
+    align-self: flex-start;
+    margin-left: 5px;
+}
+
+.card-check {
+    align-self: flex-start;
+    margin-left: 5px;
+}
+
+.card:hover {
+    transform: rotate(-5deg);
+    box-shadow: 2px 2px 2px 2px rgba(255, 211, 105, 1);;
+}
+
+.not-clickable-card {
+    cursor: default;
+}
+
+.not-clickable-card:hover {
+    box-shadow: none;
+    transform: none;
+}

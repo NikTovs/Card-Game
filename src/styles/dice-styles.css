@@ -1,0 +1,46 @@
+
+.dice-checker-field {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 70px;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.dice-result-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    width: 60%;
+}
+
+.dice {
+    width: 200px;
+    height: 200px;
+    background-color: #eeeeee;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    font-family: 'Texturina', serif;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;    
+
+}
+
+.success {
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.roll-it {
+    transform: rotate(1440deg);
+    transition: 1s;
+}

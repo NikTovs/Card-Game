@@ -1,0 +1,22 @@
+[
+    {
+        "title": "SVETA the FAT",
+        "cardText": "Fight for your life!",
+        "reward": {"value": "2", "attrToShow": "❤️⬆"},
+        "payload": {"cardType": "checkToGain", "attrToCheck": "ATTACK", "attrToShowCheck": "⚔️", "difficult": "12", "attrToChange": "MAX_HEALTH"}
+    },
+
+    {
+        "title": "MEM CARD 0",
+        "cardText": "Try this!",
+        "reward": {"value": "1", "attrToShow": "⚔️"},
+        "payload": {"cardType": "attrGain", "attrToCheck": "none", "attrToShowCheck": "none", "difficult": "none", "attrToChange": "ATTACK"}
+    },
+
+    {
+        "title": "Test Shit",
+        "cardText": "Try it or not!",
+        "reward": {"value": "1", "attrToShow": "🍏"},
+        "payload": {"cardType": "checkToGain", "attrToCheck": "MAGIC", "attrToShowCheck": "🔮", "difficult": "10", "attrToChange": "FOOD"}
+    }
+]

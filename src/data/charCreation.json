@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Choose Your Origin",
+        "data":
+        [
+            {
+                "title": "Adventurer",
+                "cardText": "Start as Adventurer",
+                "payload": {"cardType": "setValue", "value": "Adventurer", "stateToChange": "CHARISMA"}
+            },
+
+            {
+                "title": "The Nobel",
+                "cardText": "Start as Nobel",
+                "payload": {"cardType": "setValue", "value": "Nobel"}
+            },
+
+            {
+                "title": "The Mage",
+                "cardText": "Start as Mage",
+                "payload": {"cardType": "setValue", "value": "Mage"}
+            }
+        ]
+    },
+
+    {
+        "title": "Choose a Villian",
+        "data":
+        [
+            {
+                "title": "Dragon Knight",
+                "cardText": "Legendary knight",
+                "payload": {"difficult": "7"}
+            },
+
+            {
+                "title": "Dark Lord",
+                "cardText": "Looks like old man with face in frame...",
+                "payload": {"difficult": "5"}
+            },
+
+            {
+                "title": "C-O Vid",
+                "cardText": "The legendary elder power",
+                "payload": {"difficult": 9}
+            }
+        ]
+    }
+]
